@@ -18,3 +18,38 @@
 - Ready-to-use dataset samples.
 
 <img width="1707" height="492" alt="git_segment" src="https://github.com/user-attachments/assets/16abc001-a051-479a-ad8a-2d76ab12eadf" />
+
+## 🚀 Usage
+
+### 1. Run Simulation and Auto-labeling in Isaac Sim
+
+Launch Isaac Sim and execute the script below to simulate the quadruped robot moving through a disaster environment while collecting RGB-D images and semantic labels automatically.
+
+```bash
+python3 go1_car_christyan.py
+```
+
+
+📌 This script:
+
+Spawns a quadruped robot in a procedurally generated terrain.
+
+Simulates movement with onboard RGB-D sensing.
+
+Automatically records and labels each frame for terrain classification tasks.
+
+### 2. Convert Raw Data into Standard Dataset Format
+
+Once the simulation has completed and data is collected, convert the raw images and semantic labels into a structured dataset (e.g., Pascal VOC) using the following script:
+
+```bash
+python3 dataset_conversion_isaac_a_cnn_pascal.py
+```
+
+📌 This script:
+
+Organizes RGB images, depth maps, and annotations.
+
+Converts Isaac Sim outputs into formats ready for CNN training (Pascal VOC, etc.).
+
+Optionally filters or resizes the dataset.
