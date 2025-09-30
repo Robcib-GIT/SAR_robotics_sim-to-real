@@ -1,6 +1,6 @@
 # High-Fidelity Synthetic RGB-D Datasets for SAR Perception Tasks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16587242.svg)](https://doi.org/10.5281/zenodo.16587242)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17233719.svg)](https://zenodo.org/records/17233719)  
 📦 **Download the dataset on [Zenodo](https://zenodo.org/records/17233719)**
 
 **📌 Reproducible pipeline for generating annotated datasets in post-disaster environments using NVIDIA Isaac Sim.**
